@@ -1,0 +1,10 @@
+name: 'JabRef Action'
+description: 'Runs JabRef tasks'
+author: 'JabRef developers'
+inputs:
+  bibfile:
+    description: 'BibTeX file'
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
