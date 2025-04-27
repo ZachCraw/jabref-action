@@ -76414,7 +76414,7 @@ async function run() {
     const jabkitExecutable = '/tmp/jabkit/jabkit/bin/jabkit';
 
     console.log(`Running JabKit consistency check on ${bibfile}...`);
-    execSync(`${jabkitExecutable} --porcelain --check-consistency "${bibfile}"`, { stdio: 'inherit' });
+    execSync(`${jabkitExecutable} --check-consistency "${bibfile}"`, { stdio: 'inherit' });
   } catch (error) {
     core.setFailed(error.message);
   }
