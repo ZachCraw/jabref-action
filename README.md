@@ -6,6 +6,8 @@ Currently executing JabRef's consistency check.
 
 ## Example use
 
+Checking [Chocolate.bib](https://github.com/JabRef/jabref-demo-libraries/blob/97faf2b6ed94fc15c4f6e5645da3a69796d8f6d3/chocolate/Chocolate.bib#L1):
+
 ```yaml
 name: Check
 
