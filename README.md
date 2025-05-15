@@ -1,4 +1,4 @@
-# JabRef action
+# JabRef Action
 
 > BibTeX GitHub Action
 
@@ -6,16 +6,4 @@ Currently executing JabRef's consistency check.
 
 ## Development
 
-### NodeJS
-
-`node index.js` runs the action.
-
-One needs to have `/home/actions` rw for the current user.
-
-### act
-
-Requires `npm run build`.
-
-     act --rm --platform ubuntu-latest=fwilhe2/act-runner:latest -W .github/workflows/check.yml
-
-Powered by [act](https://github.com/nektos/act)
+This action uses JabRef's jabkit Dockerimage. Contribute to jabkit at [jabkit](https://github.com/JabRef/jabref/tree/main/jabkit).
