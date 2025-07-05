@@ -9,13 +9,13 @@ Currently executing JabRef's consistency check.
 Checking [Chocolate.bib#97faf2b6](https://github.com/JabRef/jabref-demo-libraries/blob/97faf2b6ed94fc15c4f6e5645da3a69796d8f6d3/chocolate/Chocolate.bib#L1):
 
 ```yaml
-name: Check
+name: Check bibliography
 
 on:
   pull_request:
 
 jobs:
-  test-action:
+  bibliography:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
